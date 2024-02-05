@@ -5,7 +5,7 @@
 
 #git clone https://github.com/pepocasver/IEBS_Universidades/
 
-cd ~/IEBS_Universidades
+#cd ~/IEBS_Universidades
 
 docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
